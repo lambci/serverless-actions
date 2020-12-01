@@ -28,9 +28,13 @@ LambCI manages the connection to GitHub Actions and sends events over [Event Bri
 3. Familiar, well-documented build specs 📃
 4. Use thousands of plugins/actions from the GH community 🏙
 
-## Source code
+## Project Philosophy
 
-All the code that runs on your resources is open source. This includes the [GitHub Actions runner](https://github.com/actions/runner) and all the "glue"  necessary for invoking it (will be released soon).
+1. Don't reinvent the UI – stay in GitHub as much as possible. Organizations don't want yet-another tool to login to, and context-switching is a productivity killer.
+2. Reducing build times is the goal. Serverless technologies are the means via fast start times and massive parallelization, but they can also be paired with vertical scaling (eg GPU CodeBuild instances).
+3. All the software that runs your builds should be open-source. This includes the [GitHub Actions runner](https://github.com/actions/runner) and all the "glue"  necessary for invoking it (to be released soon).
+4. Be a hub for all serverless-CI related resources. Serverless environments differ from traditional environments – typically they're more constrained in disk space. Provide guidance on how to operate in this context, including creating and curating Actions that work in these environments.
+
 
 ## Security
 
@@ -39,3 +43,7 @@ GitHub Action payloads are encrypted ([at GitHub's end](https://github.com/actio
 ## When?
 
 Soon, soon! Add your email to the list over at [LambCI's homepage](https://www.lambci.com) to get updates on when this will be available to try out.
+
+## Other Questions?
+
+I ([mhart](https://github.com/mhart)) would love to use GitHub Discussions, but I'm still waiting to hear back on beta access. For now, reach out on Twitter at [@lamb_ci](https://twitter.com/lamb_ci) or [@hichaelmart](https://twitter.com/hichaelmart) – or file an issue on this repo – and I'll get back to you!
