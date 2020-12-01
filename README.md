@@ -3,7 +3,7 @@
 <img src="self-hosted.png" width="407" align="right">
 
 Run hundreds of concurrent [GitHub Actions runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners)
-without needing to maintain servers.
+without needing to maintain servers. See a demo of it in action at the AWS re:Invent 2020 session [No more idling](https://virtual.awsevents.com/media/1_i4ejuc0d).
 
 ## What is it?
 
