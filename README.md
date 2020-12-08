@@ -45,5 +45,4 @@ GitHub Action payloads are encrypted ([at GitHub's end](https://github.com/actio
 Soon, soon! Add your email to the list over at [LambCI's homepage](https://www.lambci.com) to get updates on when this will be available to try out.
 
 ## Other Questions?
-
-I ([mhart](https://github.com/mhart)) would love to use GitHub Discussions, but I'm still waiting to hear back on beta access. For now, reach out on Twitter at [@lamb_ci](https://twitter.com/lamb_ci) or [@hichaelmart](https://twitter.com/hichaelmart) – or file an issue on this repo – and I'll get back to you!
+Come and chat over in the [GitHub Discussions](https://github.com/lambci/serverless-actions/discussions) space. You can also reach out on Twitter at [@lamb_ci](https://twitter.com/lamb_ci).
